@@ -54,3 +54,31 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.body-content {
+
+}
+
+.course-content {
+    padding: 24px;
+}
+
+.course-image-container {
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+    position: relative;
+    box-shadow: 0 18px 18px rgba(0,0,0,0.2), 0 5px 5px rgba(0,0,0,0.2)
+}
+
+.course-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 230px;
+    width: 230px;
+}
